@@ -1,0 +1,20 @@
+*Things that are needed to learn API are:*
+
+1. EndPoints (response = requests.get(endpoint_url_1))
+2. API views.py -> JsonResponse
+3. Echo 'GET Data' -> data = byteString of JsonData -> json.loads(data)
+    to know the type of headers, you have various ways say headers, bodies request.META etc
+4. Model instance as API response
+5. model_to_dict -> (sort of serialization)
+
+
+Rest Framework 
+1. View and Response 
+2. Model serializer
+3. Injest data with DRF views (post method to send data)
+4. Generic Retrive API View (Class based serializationView)
+5. Create API View
+6. List API View and List Create API View
+7. A combined function based view different url (/int or not) to get required thing done from same view function [api_view, Response, get_object_or_404, Http404,...]
+8. update/delete
+9. Mixin and Generic API View

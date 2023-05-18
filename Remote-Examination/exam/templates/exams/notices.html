@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+NoticeBoard
+{% endblock %}
+
+{% block content %}
+<h1>ALL NOTICES:</h1>
+<br>
+{% for notice in notices %}
+<a href='{% url 'noticeX' notice.id %}'>  {{notice}} </a> 
+{% endfor %}
+
+{% endblock %}
